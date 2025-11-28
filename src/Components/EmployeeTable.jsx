@@ -144,7 +144,7 @@ const EmployeeTable = () => {
                                 </tr>
                             </thead>
                             <tbody className="divide-y divide-blue-200">
-                                {employees.map((employee) => (
+                                {employees?.map((employee) => (
                                     <tr key={employee.id} className="hover:bg-blue-50 transition-colors">
                                         <td className="px-3 sm:px-4 lg:px-6 py-3 sm:py-4 whitespace-nowrap">
                                             <div className="flex items-center">
